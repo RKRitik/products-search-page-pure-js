@@ -1,0 +1,42 @@
+body {
+  background: black;
+  color: #ffffff;
+  padding: 40px;
+}
+#search-input {
+  padding: 8px;
+  width: 100%;
+}
+.count {
+  font-size: 22px;
+}
+.highlight {
+  background-color: rgba(255, 0, 0);
+}
+.results-container {
+  height: 80vh;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+.pagination-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#next-cta,
+#prev-cta {
+  width: 100px;
+}
+#product-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 8px;
+  padding: 0;
+}
+#product-list li {
+  padding: 8;
+  border: 1px solid white;
+
+  text-decoration: none;
+}

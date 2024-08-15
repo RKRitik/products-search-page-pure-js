@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="header-container">
+    <input id="search-input" onInput="handleSearch(event)"></input>
+  </div>
+  <div class="results-container">
+    <ul id="product-list">
+    </ul>
+  </div>
+  <div class="pagination-container">
+    <button onclick="navigate('prev')" disabled="true" id="prev-cta">Prev</button>
+    <div class="count" id="page-number">1</div>
+    <span class="count">/</span>
+    <div class="count" id="total-pages">1</div>
+    <button onclick="navigate('next')" disabled="true" id="next-cta">Next</button>
+  </div>
+</body>
+
+</html>
